@@ -1,6 +1,6 @@
 package HomeworkLessonEight;
 
-public class Planet extends SolarSystem{
+public class GasGaint extends Planet {
     private  String name;
     private String atmosphere;
     private String water;
@@ -12,7 +12,7 @@ public class Planet extends SolarSystem{
     private boolean rings;
 
 
-    public Planet (String n, String atm, String water, String magnet, String comp, int sat, float dens, float tilt, boolean rings) {
+    public GasGaint(String n, String atm, String water, String magnet, String comp, int sat, float dens, float tilt, boolean rings) {
 
         super("Gas giant", 1898, 14313, 69911, 4.503F);
         this.name =n;
