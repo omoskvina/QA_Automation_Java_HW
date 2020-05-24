@@ -1,6 +1,10 @@
 package HomeworklessonTwelve;
 
-
+/**
+ * QA Automation. Kevin. Homework 12
+ * @author Olena Moskvina
+ * @version dated 24/05/2020
+ */
 
 import javax.swing.*;
 import java.sql.Array;

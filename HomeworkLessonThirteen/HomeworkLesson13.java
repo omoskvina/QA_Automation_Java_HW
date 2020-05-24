@@ -1,5 +1,9 @@
 package HomeworkLessonThirteen;
-
+/**
+ * QA Automation. Kevin. Homework 13
+ * @author Olena Moskvina
+ * @version dated 24/05/2020
+ */
 
 import java.util.ArrayList;
 import java.util.List;
