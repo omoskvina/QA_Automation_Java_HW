@@ -12,31 +12,35 @@ public class Calculator {
         //Калькулятор
 
         double num1 = 6.8;
-        double num2 = 3.4;
+        double num2 = 0.0;
         char operation = '/';
         double result = calc(num1, num2, operation);
         System.out.println("Результат операции: " + result);
     }
 
     public static double calc(double num1, double num2, char operation) {
-        double result;
-        switch (operation) {
-            case '+':
-                result = num1 + num2;
-                break;
-            case '-':
-                result = num1 - num2;
-                break;
-            case '*':
-                result = num1 * num2;
-                break;
-            case '/':
-                result = num1 / num2;
-                break;
-            default:
-                System.out.println("Операция не распознана");
-                result = calc(num1, num2, operation);
-        }
-        return result;
+
+            double result;
+
+            switch (operation) {
+                case '+':
+                    result = num1 + num2;
+                    break;
+                case '-':
+                    result = num1 - num2;
+                    break;
+                case '*':
+                    result = num1 * num2;
+                    break;
+                case '/':
+                    result = num1 / num2;
+                    break;
+                default:
+                    System.out.println("Операция не распознана");
+                    result = calc(num1, num2, operation);
+            }
+
+          return result;
+
     }
 }

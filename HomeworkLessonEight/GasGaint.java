@@ -1,6 +1,7 @@
 package HomeworkLessonEight;
 
 public class GasGaint extends Planet {
+
     private  String name;
     private String atmosphere;
     private String water;

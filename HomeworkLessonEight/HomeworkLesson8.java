@@ -1,5 +1,9 @@
 package HomeworkLessonEight;
-
+/**
+ * QA Automation. Kevin. Homework 8
+ * @author Olena Moskvina
+ * @version dated 19/04/2020
+ */
 public class HomeworkLesson8 {
 
     public static void main(String[] args) {
