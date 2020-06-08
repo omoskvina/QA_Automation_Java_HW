@@ -55,7 +55,7 @@ public class HomeworkLesson16 {
         //кликаем на кнопку Найти, поиск элемента по xpath
         driver.findElement(By.xpath("//*[@id=\"form-search\"]/p[1]/input[2]")).click();
 
-        //смотрим погоду в четверг, поиск элемента по xpath
+        //смотрим погоду в другой день (+3 дня), поиск элемента по xpath
         driver.findElement(By.xpath("//*[@id=\"bd4\"]")).click();
 
 
