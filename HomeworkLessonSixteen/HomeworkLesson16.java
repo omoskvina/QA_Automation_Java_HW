@@ -42,7 +42,7 @@ public class HomeworkLesson16 {
     }
 
         //открываем сайт
-        driver.get("https://sinoptik.ua/");
+        driver.get("https://sinoptik.ua");
 
         System.out.println(driver.getTitle()); //получили название страницы
 
