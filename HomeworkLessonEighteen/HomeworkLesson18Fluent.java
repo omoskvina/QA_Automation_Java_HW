@@ -11,6 +11,11 @@ import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+/**
+ * QA Automation. Kevin. Homework 18
+ * @author Olena Moskvina
+ * @version dated 18/06/2020
+ */
 
 public class HomeworkLesson18Fluent {
 
